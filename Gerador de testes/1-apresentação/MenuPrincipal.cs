@@ -13,9 +13,7 @@ namespace Gerador_de_testes
 
         public MenuPrincipal()
         {
-            InitializeComponent();
-            
-            
+            InitializeComponent();  
         }
 
         private void MenuPrincipal_Load(object sender, EventArgs e)

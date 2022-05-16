@@ -29,15 +29,15 @@
         private void InitializeComponent()
         {
             this.btnCancelar = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
+            this.buttonAtualizar = new System.Windows.Forms.Button();
+            this.buttonExcluir = new System.Windows.Forms.Button();
+            this.buttonInserir = new System.Windows.Forms.Button();
+            this.tabControlDiciplinas = new System.Windows.Forms.TabControl();
+            this.tabPageMatematica = new System.Windows.Forms.TabPage();
+            this.tabPageLinguagens = new System.Windows.Forms.TabPage();
+            this.tabPageCH = new System.Windows.Forms.TabPage();
+            this.tabPageCN = new System.Windows.Forms.TabPage();
+            this.tabControlDiciplinas.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnCancelar
@@ -51,113 +51,113 @@
             this.btnCancelar.UseVisualStyleBackColor = true;
             this.btnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
-            // button3
+            // buttonAtualizar
             // 
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(210, 17);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(164, 43);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "atualizar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonAtualizar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonAtualizar.Location = new System.Drawing.Point(210, 17);
+            this.buttonAtualizar.Name = "buttonAtualizar";
+            this.buttonAtualizar.Size = new System.Drawing.Size(164, 43);
+            this.buttonAtualizar.TabIndex = 9;
+            this.buttonAtualizar.Text = "atualizar";
+            this.buttonAtualizar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // buttonExcluir
             // 
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(404, 17);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(164, 43);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Excluir";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonExcluir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonExcluir.Location = new System.Drawing.Point(404, 17);
+            this.buttonExcluir.Name = "buttonExcluir";
+            this.buttonExcluir.Size = new System.Drawing.Size(164, 43);
+            this.buttonExcluir.TabIndex = 8;
+            this.buttonExcluir.Text = "Excluir";
+            this.buttonExcluir.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // buttonInserir
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(12, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(164, 43);
-            this.button1.TabIndex = 7;
-            this.button1.Text = "Inserir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonInserir.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.buttonInserir.Location = new System.Drawing.Point(12, 17);
+            this.buttonInserir.Name = "buttonInserir";
+            this.buttonInserir.Size = new System.Drawing.Size(164, 43);
+            this.buttonInserir.TabIndex = 7;
+            this.buttonInserir.Text = "Inserir";
+            this.buttonInserir.UseVisualStyleBackColor = true;
             // 
-            // tabControl1
+            // tabControlDiciplinas
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 66);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(556, 233);
-            this.tabControl1.TabIndex = 11;
+            this.tabControlDiciplinas.Controls.Add(this.tabPageMatematica);
+            this.tabControlDiciplinas.Controls.Add(this.tabPageLinguagens);
+            this.tabControlDiciplinas.Controls.Add(this.tabPageCH);
+            this.tabControlDiciplinas.Controls.Add(this.tabPageCN);
+            this.tabControlDiciplinas.Location = new System.Drawing.Point(12, 66);
+            this.tabControlDiciplinas.Name = "tabControlDiciplinas";
+            this.tabControlDiciplinas.SelectedIndex = 0;
+            this.tabControlDiciplinas.Size = new System.Drawing.Size(556, 233);
+            this.tabControlDiciplinas.TabIndex = 11;
             // 
-            // tabPage1
+            // tabPageMatematica
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 24);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(548, 205);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Matematica";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPageMatematica.Location = new System.Drawing.Point(4, 24);
+            this.tabPageMatematica.Name = "tabPageMatematica";
+            this.tabPageMatematica.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageMatematica.Size = new System.Drawing.Size(548, 205);
+            this.tabPageMatematica.TabIndex = 0;
+            this.tabPageMatematica.Text = "Matematica";
+            this.tabPageMatematica.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // tabPageLinguagens
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 24);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(548, 205);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Linguagens";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabPageLinguagens.Location = new System.Drawing.Point(4, 24);
+            this.tabPageLinguagens.Name = "tabPageLinguagens";
+            this.tabPageLinguagens.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPageLinguagens.Size = new System.Drawing.Size(548, 205);
+            this.tabPageLinguagens.TabIndex = 1;
+            this.tabPageLinguagens.Text = "Linguagens";
+            this.tabPageLinguagens.UseVisualStyleBackColor = true;
             // 
-            // tabPage3
+            // tabPageCH
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 24);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(548, 205);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Ciencias Humanas";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.tabPageCH.Location = new System.Drawing.Point(4, 24);
+            this.tabPageCH.Name = "tabPageCH";
+            this.tabPageCH.Size = new System.Drawing.Size(548, 205);
+            this.tabPageCH.TabIndex = 2;
+            this.tabPageCH.Text = "Ciencias Humanas";
+            this.tabPageCH.UseVisualStyleBackColor = true;
             // 
-            // tabPage4
+            // tabPageCN
             // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 24);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(548, 205);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Ciencias da Natureza";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.tabPageCN.Location = new System.Drawing.Point(4, 24);
+            this.tabPageCN.Name = "tabPageCN";
+            this.tabPageCN.Size = new System.Drawing.Size(548, 205);
+            this.tabPageCN.TabIndex = 3;
+            this.tabPageCN.Text = "Ciencias da Natureza";
+            this.tabPageCN.UseVisualStyleBackColor = true;
             // 
             // TelaQuestoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 352);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabControlDiciplinas);
             this.Controls.Add(this.btnCancelar);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonAtualizar);
+            this.Controls.Add(this.buttonExcluir);
+            this.Controls.Add(this.buttonInserir);
             this.Name = "TelaQuestoes";
             this.Text = "TelaQuestões";
             this.Load += new System.EventHandler(this.TelaQuestões_Load_1);
-            this.tabControl1.ResumeLayout(false);
+            this.tabControlDiciplinas.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.Button btnCancelar;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.Button buttonAtualizar;
+        private System.Windows.Forms.Button buttonExcluir;
+        private System.Windows.Forms.Button buttonInserir;
+        private System.Windows.Forms.TabControl tabControlDiciplinas;
+        private System.Windows.Forms.TabPage tabPageMatematica;
+        private System.Windows.Forms.TabPage tabPageLinguagens;
+        private System.Windows.Forms.TabPage tabPageCH;
+        private System.Windows.Forms.TabPage tabPageCN;
     }
 }
